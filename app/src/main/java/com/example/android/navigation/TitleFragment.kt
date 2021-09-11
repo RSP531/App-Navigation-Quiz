@@ -21,7 +21,7 @@ class TitleFragment : Fragment() {
         val binding: FragmentTitleBinding = DataBindingUtil.inflate(
                 inflater, R.layout.fragment_title, container, false)
         binding.playButton.setOnClickListener (
-                Navigation.createNavigateOnClickListener(R.id.action_titleFragment2_to_gameFragment)
+                Navigation.createNavigateOnClickListener(R.id.action_titleFragment_to_gameFragment)
         )
         return binding.root
     }
